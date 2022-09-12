@@ -53,7 +53,6 @@ to produce rules that decrease password security rather than enhance it.
 ## Instructions
 
 To complete the lab and get the tests passing, you will need to:
-
 - Create a User model, and migrations for a `users` table with `username` and
   `password_digest` columns. Make sure to use `password_digest`, not
   `password`, in your migration, and to include the has_secure_password macro
